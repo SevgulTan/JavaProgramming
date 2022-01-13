@@ -29,17 +29,8 @@ public class Car {
     }
    */
 
-    @Override
-    public String toString() {
-        return "Car{" +
-                "brand='" + brand + '\'' +
-                ", model='" + model + '\'' +
-                ", year=" + year +
-                ", price=" + price +
-                ", color='" + color + '\'' +
-                ", miles=" + miles +
-                '}';
-    }
+
+
 }
 /*
  Create a class called Car

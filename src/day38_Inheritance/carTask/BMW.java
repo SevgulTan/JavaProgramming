@@ -8,6 +8,11 @@ public class BMW extends Car{
     public void breakDown(){
         System.out.println(brand+" "+ model+" breaks down every 100 miles");
     }
+
+    public void start(){
+        System.out.println("Call mechanic to jump start "+brand+" "+model);
+    }
+
 }
 /*
   2. BMW:
