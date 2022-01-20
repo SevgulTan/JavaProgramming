@@ -1,4 +1,4 @@
-package utilities;
+package day40_FinalKeyword;
 
 public class Animal {
     private String name;
@@ -60,4 +60,19 @@ public class Animal {
     public void setAge(int age) {
         this.age = age;
     }
+
+    //-------------------------------------------------------------
+
+    public void eat(){
+        System.out.println(name+" is eating");
+    }
+    public final void drink(){
+        System.out.println(name+ " is drinking water");
+    }
+
+
+
+
+
+
 }
